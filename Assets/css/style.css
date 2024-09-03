@@ -370,7 +370,7 @@ footer {
     width: 15%;
 }
 .point{
-    align-items: first baseline;
+    align-items: second baseline !important;
 }
 .point p {
     color: black !important;
