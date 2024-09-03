@@ -179,7 +179,7 @@ a {
 footer {
     padding-top: 100px;
     padding-bottom: 20px;
-    background-image: url('/Stark_website/Assets/Images/images/2-2.png')
+    background-image: url('/Assets/Images/images/2-2.png')
 }
 
 .heroDiv {
@@ -233,7 +233,7 @@ footer {
 }
 
 .hero {
-    background-image: url('/Stark_website/Assets/Images/images/2-2.png');
+    background-image: url('/Assets/Images/images/2-2.png');
     margin-top: -100px;
     padding-bottom: 100px;
 }
