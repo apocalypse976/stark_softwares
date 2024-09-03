@@ -275,18 +275,24 @@ footer {
 }
 
 .window {
+    align-items: center;
     background-color: white;
     flex-direction: row;
     box-shadow: -1px 3px 13px 2px;
-    padding: 40px 30px;
+    padding: 17px 30px;
     gap: 10px;
     border-radius: 30px;
 }
 
-.window img {
-    width: 50px;
+.window1 img {
+    width: 30%;
 }
-
+.window2 img {
+    width: 30%;
+}
+.window3 img {
+    width: 20%;
+}
 .texts {
     flex-direction: column;
     gap: 10px;
@@ -363,7 +369,9 @@ footer {
 .cardhead img {
     width: 15%;
 }
-
+.point{
+    align-items: first baseline;
+}
 .point p {
     color: black !important;
     font-weight: 400 !important;
@@ -617,5 +625,14 @@ footer {
     }
     .socialsul {
         padding-right : 0px;
+    }
+    .window1 img {
+        width: 50%;
+    }
+    .window2 img {
+        width: 60%;
+    }
+    .window3 img {
+        width: 50%;
     }
 }
