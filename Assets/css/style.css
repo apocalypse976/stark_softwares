@@ -642,3 +642,9 @@ footer {
         width: 50%;
     }
 }
+@media screen and (min-device-width: 800px) and (max-device-width: 900px){
+    .contact {
+        display: none;
+    }
+
+}    
