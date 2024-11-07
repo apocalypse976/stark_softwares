@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+.text-start{
+    text-align: start !important;
+}
 .poppins {
     font-family: "Poppins", sans-serif !important;
 }
@@ -348,12 +351,9 @@ footer {
     font-size: 18px;
 }
 
-.cardGrid {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    width: 85vw;
+/* .servicesslider {
     margin: auto;
-}
+} */
 
 .cardhead {
     align-items: center;
@@ -400,7 +400,7 @@ footer {
 }
 
 .whyChoosegrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 85vw;
     margin: 10px auto;
     gap: 20px;
@@ -409,7 +409,7 @@ footer {
     width: 27% !important;
 }
 .box {
-    padding: 30px 10px;
+    padding: 30px 20px;
     width: 85%;
     margin: 0px auto 0px auto;
     flex-direction: column;
@@ -474,6 +474,27 @@ footer {
     list-style: none;
     gap: 35px;
 }
+.boximg a{
+color: var(--primary_color);
+font-size: 50px;
+}
+.why-slider{
+    margin-top: 20px;
+}
+.owl-wrapper, .owl-item,.box,.owl-wrapper, .owl-item,.card{
+    height: 85% !important;
+}
+ .owl-wrapper-outer{
+    height: 300px;
+ }
+ .cardhead a{
+    margin-top: 5px;
+    font-size: 25px;
+    color: var(--primary_color);
+ }
+ .card4 h3,.card4 ul li p{
+font-size: 13px;
+ }
 /* MediaQuery */
 @media only screen and (max-width:800px) {
     .contact {
