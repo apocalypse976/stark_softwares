@@ -492,8 +492,25 @@ font-size: 50px;
     font-size: 25px;
     color: var(--primary_color);
  }
- .card4 h3,.card4 ul li p{
-font-size: 13px;
+
+ .f-icon{
+    color: var(--primary_color);
+    font-size: 50px;
+ }
+ .socials a{
+    color: var(--primary_color);
+    font-size: 25px;
+    padding: 2px;
+ }
+ .socialsul{
+    gap: 10px;
+ }
+ .socials a:hover{
+    background-color: rgb(255, 171, 171);
+    border-radius: 50%;
+ }
+ .g5{
+    gap: 5px;
  }
 /* MediaQuery */
 @media only screen and (max-width:800px) {
