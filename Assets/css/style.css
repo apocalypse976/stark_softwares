@@ -480,8 +480,20 @@ font-size: 50px;
 .why-slider{
     margin-top: 20px;
 }
-.owl-wrapper, .owl-item,.box,.owl-wrapper, .owl-item,.card{
+.owl-wrapper, .owl-item,.box{
     height: 85% !important;
+}
+.owl-wrapper, .owl-item,.card{
+    height: 280px;
+}
+.card2 .img img{
+    width: 60% ;
+}
+.card3 .img img,.card4 .img img ,.card5 .img img{
+    width: 60% ;
+}
+.owl-carousel .owl-wrapper-outer {
+    padding-bottom: 45px;
 }
  .owl-wrapper-outer{
     height: 300px;
@@ -517,7 +529,9 @@ font-size: 50px;
  .aboutimg img:hover{
     scale: 1.05;
  }
- 
+ .img img{
+ width: 80%;
+ }
 /* MediaQuery */
 @media only screen and (max-width:800px) {
     .contact {
