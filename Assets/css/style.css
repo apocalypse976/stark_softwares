@@ -484,7 +484,7 @@ font-size: 50px;
     height: 85% !important;
 }
 .owl-wrapper, .owl-item,.card{
-    height: 280px;
+    height: 350px;
 }
 .card2 .img img{
     width: 60% ;
@@ -493,8 +493,12 @@ font-size: 50px;
     width: 60% ;
 }
 .owl-carousel .owl-wrapper-outer {
-    padding-bottom: 45px;
+    padding-bottom: 118px;
 }
+.why-slider .owl-wrapper-outer {
+    padding-bottom: 0px;
+}
+
  .owl-wrapper-outer{
     height: 300px;
  }
