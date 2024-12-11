@@ -4,8 +4,8 @@
 
 :root {
     --font_color: white;
-    --primary_color: #FD4A18;
-    --visited: #e47a44;
+    --primary_color: #fd1818;
+    --visited: #e44444;
 }
 .pb-5{
     padding-bottom: 5px;
@@ -22,7 +22,6 @@ html{
 }
 .poppins {
     font-family: "Poppins", sans-serif !important;
-    font-size: 13px;
 }
 
 .bakbak_one {
@@ -31,6 +30,89 @@ html{
     font-style: normal;
     text-align: center;
 }
+
+/* About us */
+.about-us {
+    background-color: #fff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-title {
+    font-size: 2rem;
+    color: #ff5f03; /* Light blue theme color */
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-highlights {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.about-highlights li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.about-highlights li::before {
+    content: "✔";
+    color: #0077b6;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #005f8a;
+}
+
+/* About Us Image */
+.about-image1 img {
+    max-width: 348px;
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+    height: auto;
+    filter:drop-shadow(0 4px 10px rgba(0, 0, 0, 0.1)) ;
+}
+
+
 
 * {
     margin: 0;
@@ -190,6 +272,61 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+
+/* Call-to-Action Section */
+.cta-section {
+    background-color: #ffffff; /* Light blue theme color */
+    color: #000000;
+    padding: 72.9px 10.5px;
+    text-align: center;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    filter: drop-shadow(30px 4px 10px rgba(236, 200, 200, 0.87));
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #ff5c33; /* Highlight color for primary action */
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #cc4100;
+}
+
+
+
 
 footer {
     padding-top: 100px;
@@ -635,7 +772,49 @@ font-size: 50px;
     flex-direction: column;
     align-items: center;
   }
+.container{
+    grid-template-columns: 1fr 1fr;
+}
+  /* Responsive Design */
+.about-image1{
+    align-items: center;
+    justify-content: center;
+}
+
 /* MediaQuery */
+/* Responsive Design */
+@media (max-width: 800px) {
+    .cta-title {
+        font-size: 2rem;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .cta-description {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 20px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+}
+
 @media only screen and (max-width:800px) {
     .contact {
         display: none;
